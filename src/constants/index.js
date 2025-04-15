@@ -203,7 +203,7 @@ const projects = [
     ],
     image: shopify,
     source_code_link: "https://github.com/MostafaAlagmy/Shopify",
-    live_demo: "https://shopify-ulee.vercel.app/",
+    live_demo: "https://shopify-pearl.vercel.app",
   },
   {
     name: "instagram clone ",
