@@ -171,8 +171,8 @@ const projects = [
       { name: "react query", color: "pink-text-gradient" },
     ],
     image: onTask, 
-    source_code_link: "#", 
-    live_demo: "#", 
+    source_code_link: "/", 
+    live_demo: "/", 
   },
   {
     name: "ChinaGate Platform",
@@ -187,8 +187,8 @@ const projects = [
       { name: "react query", color: "pink-text-gradient" },
     ],
     image: ChinaGitway,
-    source_code_link: "https://github.com/MostafaAlagmy/ChinaGate",
-    live_demo: "https://chinagate-live-demo.vercel.app",
+    source_code_link: "/",
+    live_demo: "/",
   },
   {
     name: "Full E-Commerce Platform",

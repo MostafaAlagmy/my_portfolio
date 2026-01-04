@@ -38,7 +38,7 @@ const ProjectCard = ({
           <div className='absolute top-0 left-0 m-3 card-img_hover'>
             <div
               onClick={() => window.open(live_demo, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className={`black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ${source_code_link.length<2 && 'hidden'}`}
             >
               <img
                 src={web}
@@ -50,12 +50,14 @@ const ProjectCard = ({
           <div className='absolute top-0 right-0 m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+
+              className={`black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ${source_code_link.length<2 && 'hidden'}`}
             >
               <img
                 src={github}
+                
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className={`w-1/2 h-1/2 object-contain `}
               />
             </div>
           </div>
