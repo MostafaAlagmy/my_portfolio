@@ -10,19 +10,14 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+    shopify,
+
+  onTask,
+  ChinaGitway,
+  sochial,
+ 
+
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +41,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React & TypeScript Specialist",
+    title: "React & Next.js Specialist",
     icon: mobile,
   },
   {
@@ -98,52 +93,39 @@ const technologies = [
 
 
 const experiences = [
-  {
-    title: "Shopify Clone Project",
-    company_name: "GitHub",
-    icon: web, // يمكنك تغيير الأيقونة بما يناسب المشروع
+   {
+    title: "Front-End Developer",
+    company_name: "AlexApps",
+    icon: web, // ضع أيقونة مناسبة لشركة AlexApps
     iconBg: "#383E56",
-    date: "Jan 2024 - Present",
-    
+    date: "Nov 2024 – Present",
     points: [
-      "Developed a fully functional e-commerce website using React, Tailwind CSS, Shadcn UI, and JavaScript.",
-      "Implemented dual interfaces: a user-friendly shopping experience for customers and a dynamic admin dashboard for product and order management.",
-      "Enabled users to browse, filter, search for products, and add products to the cart for purchase using PayPal integration.",
-      "Implemented address management, allowing users to add and save their shipping addresses.",
-      "Designed the admin panel to manage product listings, update the user interface, and track customer orders efficiently.",
-      "Deployed the project on Vercel for seamless performance and accessibility.",
+      "Built scalable and user-friendly interfaces using React.js and Shadcn UI, following clean code principles.",
+      "Created and maintained an admin dashboard to efficiently manage and monitor system operations.",
+      "Optimized front-end performance to improve load times and deliver a smoother user experience.",
+      "Designed and launched client-facing web applications across different industries, contributing to high client satisfaction.",
+      "Implemented efficient state management solutions using Redux Toolkit and React Query to handle complex data flows.",
+      "Delivered digital products for the Picalica platform, meeting high-quality standards and supporting strong sales performance.",
     ],
   },
+  {
+  title: "Front-End Developer",
+  company_name: "Freelance",
+  icon: web, // ضع أيقونة مناسبة للفريلانس
+  iconBg: "#383E56",
+  date: "Mar 2024 – Oct 2024",
+  points: [
+    "Collaborated with a team to build modern web applications using best front-end practices.",
+    "Converted Figma designs into pixel-perfect, fully responsive UI components using Shadcn UI and Tailwind CSS, ensuring consistency across all screen sizes.",
+    "Developed interactive dashboards and admin panels for SaaS projects, improving client management workflows.",
+    "Implemented efficient state management solutions using Redux Toolkit and React Query to handle dynamic data.",
+    "Optimized front-end performance and ensured smooth user experience across multiple devices and browsers.",
+    "Integrated APIs to fetch and manage data, ensuring seamless communication between front-end and back-end systems.",
+    "Delivered high-quality web applications for clients across different industries, maintaining timelines and standards.",
+  ],
+}
+,
  
-  {
-    title: "Snapgram Project",
-    company_name: "GitHub",
-    icon: mobile, // أيقونة مناسبة للمشروع
-    iconBg: "#383E56",
-    date: "Nov 2023 - Dec 2023",
-    points: [
-      "Built a social media platform using React.js, TypeScript, and Tailwind CSS.",
-      "Managed server state with React Query for efficient data fetching.",
-      "Implemented user authentication, dynamic content rendering, and responsive UI with Shadcn UI.",
-      "Deployed the project on Vercel for public access.",
-    ],
-  },
-
-  {
-    title: "Movie Website Project",
-    company_name: "GitHub",
-    icon: starbucks, // يمكنك تغيير الأيقونة بما يناسب المشروع
-    iconBg: "#383E56",
-    date: "Dec 2023 - Jan 2024",
-    points: [
-      "Developed a movie website with user authentication (Login & Register) using React and JavaScript.",
-      "Created a homepage displaying a collection of movies, series, and characters with interactive UI.",
-      "Enabled users to view detailed information about movies, series, and characters.",
-      "Focused on seamless navigation and responsive design for an optimal user experience across devices.",
-      "Integrated API for fetching movie and series data, enhancing content accessibility.",
-      "Deployed the project on Vercel for efficient performance and access.",
-    ],
-  },
  
 ];
 
@@ -177,95 +159,69 @@ const testimonials = [
 
 const projects = [
   {
-    name: "E-commerce Project",
+    name: "OnTask – Multi-Dashboard Service Platform",
     description:
-    
-"A web-based e-commerce platform that allows users to browse, filter, and purchase products across various categories. Featuring a user-friendly shopping cart, PayPal integration for secure payments, and an admin panel for managing products, orders, and user interactions, providing a seamless and efficient shopping experience."
-
-,
+      "Developed a service management platform with three dashboards for admin, merchant companies, and technician companies. The system enables full admin control, service and location management, technician supervision, and customer and order management for merchants.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux toolkit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "shadcn ui",
-        color: "blue-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "next.js", color: "green-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "shadcn ui", color: "blue-text-gradient" },
+      { name: "redux toolkit", color: "green-text-gradient" },
+      { name: "react query", color: "pink-text-gradient" },
+    ],
+    image: onTask, 
+    source_code_link: "#", 
+    live_demo: "#", 
+  },
+  {
+    name: "ChinaGate Platform",
+    description:
+      "Developed a dual-dashboard platform for importers and merchants to manage orders, inventory, supply operations, and financial accounts. Importers can create and track orders, monitor accounts, and follow shipment status, while merchants manage warehouses and supply workflows through a centralized system.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "next.js", color: "green-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "shadcn ui", color: "blue-text-gradient" },
+      { name: "redux toolkit", color: "green-text-gradient" },
+      { name: "react query", color: "pink-text-gradient" },
+    ],
+    image: ChinaGitway,
+    source_code_link: "https://github.com/MostafaAlagmy/ChinaGate",
+    live_demo: "https://chinagate-live-demo.vercel.app",
+  },
+  {
+    name: "Full E-Commerce Platform",
+    description:
+      "Developed a complete e-commerce system with a customer-facing store and an admin dashboard. Implemented product browsing, cart management, search and filtering, PayPal payments, and full admin control over products and orders.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "javascript", color: "green-text-gradient" },
+      { name: "shadcn ui", color: "pink-text-gradient" },
+      { name: "tailwind css", color: "blue-text-gradient" },
+      { name: "redux toolkit", color: "green-text-gradient" },
     ],
     image: shopify,
     source_code_link: "https://github.com/MostafaAlagmy/Shopify",
-    live_demo: "https://shopify-pearl.vercel.app",
+    live_demo: "https://shopify-pearl.vercel.app/",
   },
   {
-    name: "instagram clone ",
+    name: "Social Media Platform",
     description:
-      
-"A web-based social platform that allows users to create, view, and interact with posts. With features like following other users, liking and commenting on content, and real-time updates, this platform provides a seamless and engaging social experience."
-
-,
+      "Developed a social media application that allows users to create posts and browse published content from other users. Implemented real-time data handling using React Query and built the UI with React, TypeScript, and Tailwind CSS.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ts",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwand css",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react query",
-        color: "green-text-gradient",
-      },
-      {
-        name: "chadcn  ui",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "redux toolkit",
-        color: "pink-text-gradient",
-      },
+      { name: "react", color: "blue-text-gradient" },
+      { name: "typescript", color: "green-text-gradient" },
+      { name: "react query", color: "pink-text-gradient" },
+      { name: "shadcn ui", color: "blue-text-gradient" },
+      { name: "redux toolkit", color: "green-text-gradient" },
+      { name: "tailwind css", color: "pink-text-gradient" },
     ],
-    image: meta,
-    source_code_link: "https://github.com/MostafaAlagmy/insta-clone",
+    image: sochial,
+    source_code_link: "https://github.com/MostafaAlagmy/snapgram",
     live_demo: "https://insta-clone-alpha-six.vercel.app/",
-
-  },
-  {
-    name: "movie app",
-    description:
-
-    "A web-based platform that allows users to browse, search, and view detailed information about movies, TV shows, and characters. With features like user authentication (Login/Register), an interactive homepage, and a responsive design, this app offers an engaging and seamless experience for movie enthusiasts."  ,
-      tags: [
-      {
-        name: "react ",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "bootstrap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: web,
-    source_code_link: "https://github.com/MostafaAlagmy/movieApp",
-    live_demo: "https://movie-app-khaki-five.vercel.app/",
   },
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };

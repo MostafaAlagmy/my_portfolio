@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className={`relative w-full h-screen mx-auto`}>
+    <section className={`relative w-full min-h-[100vh] mx-auto`}>
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`relative inset-0 top-[40vh] translate-y-[-50%] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
@@ -19,15 +18,14 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Mostafa</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          A Front-End Developer specializing in building modern web applications <br className='sm:block hidden' />
-          with React.js, TypeScript, and Tailwind CSS
+          ِA Front-End Developer with 1 year of experience, specialize in building modern SaaS web applications <br className='sm:block hidden' />
+  using React.js, Next.js, and Shadcn UI
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
 
-      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+      <div className='absolute xs:bottom-[20vh] bottom-[5vh] w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div

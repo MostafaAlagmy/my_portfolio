@@ -23,6 +23,9 @@ import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
+import onTask from "./company/onTask.jpg";
+import sochial from "./company/sochial.jpg";
+import ChinaGitway from "./company/ChinaGitway.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
@@ -54,6 +57,9 @@ export {
   threejs,
   meta,
   shopify,
+  sochial,
+  onTask,
+  ChinaGitway,
   starbucks,
   tesla,
   carrent,

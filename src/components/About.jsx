@@ -47,10 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I'm a Front-End Developer with expertise in React, TypeScript, Redux Toolkit, Tailwind CSS, Shadcn UI, and React Query.  
-  I specialize in building scalable and responsive web applications with a focus on performance and user experience.  
-  I enjoy creating clean and maintainable code while integrating modern UI components and advanced state management solutions.  
-  Let's collaborate to bring innovative web solutions to life!
+      I’m a Front-End Developer currently working at AlexApps, with a Bachelor's degree in Computer Science and Mathematics, I specialize in React, Next.js, TypeScript, Redux Toolkit, Shadcn UI, and React Query, building scalable and responsive SaaS applications, including dashboards and e-commerce platforms. I focus on performance, clean and maintainable code, and delivering engaging user experiences.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
