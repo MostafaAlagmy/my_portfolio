@@ -11,12 +11,14 @@ import {
   redux,
   tailwind,
   git,
-    shopify,
+  shopify,
 
   onTask,
   ChinaGitway,
+  EduScoreImage,
   sochial,
- 
+  ClassatImage
+
 
 } from "../assets";
 
@@ -56,7 +58,7 @@ const services = [
 
 
 const technologies = [
- 
+
   {
     name: "JavaScript",
     icon: javascript,
@@ -81,12 +83,12 @@ const technologies = [
     name: "git",
     icon: git,
   },
- 
+
 ];
 
 
 const experiences = [
-   {
+  {
     title: "Front-End Developer",
     company_name: "AlexApps",
     icon: web, // ضع أيقونة مناسبة لشركة AlexApps
@@ -102,24 +104,24 @@ const experiences = [
     ],
   },
   {
-  title: "Front-End Developer",
-  company_name: "Freelance",
-  icon: web, // ضع أيقونة مناسبة للفريلانس
-  iconBg: "#383E56",
-  date: "Mar 2024 – Oct 2024",
-  points: [
-    "Collaborated with a team to build modern web applications using best front-end practices.",
-    "Converted Figma designs into pixel-perfect, fully responsive UI components using Shadcn UI and Tailwind CSS, ensuring consistency across all screen sizes.",
-    "Developed interactive dashboards and admin panels for SaaS projects, improving client management workflows.",
-    "Implemented efficient state management solutions using Redux Toolkit and React Query to handle dynamic data.",
-    "Optimized front-end performance and ensured smooth user experience across multiple devices and browsers.",
-    "Integrated APIs to fetch and manage data, ensuring seamless communication between front-end and back-end systems.",
-    "Delivered high-quality web applications for clients across different industries, maintaining timelines and standards.",
-  ],
-}
-,
- 
- 
+    title: "Front-End Developer",
+    company_name: "Freelance",
+    icon: web, // ضع أيقونة مناسبة للفريلانس
+    iconBg: "#383E56",
+    date: "Mar 2024 – Oct 2024",
+    points: [
+      "Collaborated with a team to build modern web applications using best front-end practices.",
+      "Converted Figma designs into pixel-perfect, fully responsive UI components using Shadcn UI and Tailwind CSS, ensuring consistency across all screen sizes.",
+      "Developed interactive dashboards and admin panels for SaaS projects, improving client management workflows.",
+      "Implemented efficient state management solutions using Redux Toolkit and React Query to handle dynamic data.",
+      "Optimized front-end performance and ensured smooth user experience across multiple devices and browsers.",
+      "Integrated APIs to fetch and manage data, ensuring seamless communication between front-end and back-end systems.",
+      "Delivered high-quality web applications for clients across different industries, maintaining timelines and standards.",
+    ],
+  }
+  ,
+
+
 ];
 
 
@@ -151,22 +153,8 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "OnTask – Multi-Dashboard Service Platform",
-    description:
-      "Developed a service management platform with three dashboards for admin, merchant companies, and technician companies. The system enables full admin control, service and location management, technician supervision, and customer and order management for merchants.",
-    tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "next.js", color: "green-text-gradient" },
-      { name: "typescript", color: "pink-text-gradient" },
-      { name: "shadcn ui", color: "blue-text-gradient" },
-      { name: "redux toolkit", color: "green-text-gradient" },
-      { name: "react query", color: "pink-text-gradient" },
-    ],
-    image: onTask, 
-    source_code_link: "/", 
-    live_demo: "/", 
-  },
+  
+
   {
     name: "ChinaGate Platform",
     description:
@@ -181,8 +169,76 @@ const projects = [
     ],
     image: ChinaGitway,
     source_code_link: "/",
+    live_demo: "https://dopifa.com/ar",
+  },
+
+  {
+    name: "Natega4All", // يمكنك تغييره للاسم الفعلي للمشروع
+    description:
+      "A comprehensive results management platform featuring a centralized admin dashboard alongside tailored modules for schools and students. The platform enables administrators to oversee institutional performance, empowers schools to securely manage, compute, and publish academic grades, and provides students with a seamless portal to access their report cards and track performance analytics.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "next.js", color: "green-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "shadcn ui", color: "blue-text-gradient" },
+      { name: "redux toolkit", color: "green-text-gradient" },
+      { name: "react query", color: "pink-text-gradient" },
+    ],
+    image: EduScoreImage, // تأكد من عمل import للصورة بهذا الاسم في الأعلى
+    source_code_link: "/",
+    live_demo: "https://natega4all.com/",
+  },
+
+  {
+    name: "OnTask – Multi-Dashboard Service Platform",
+    description:
+      "Developed a service management platform with three dashboards for admin, merchant companies, and technician companies. The system enables full admin control, service and location management, technician supervision, and customer and order management for merchants.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "next.js", color: "green-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "shadcn ui", color: "blue-text-gradient" },
+      { name: "redux toolkit", color: "green-text-gradient" },
+      { name: "react query", color: "pink-text-gradient" },
+    ],
+    image: onTask,
+    source_code_link: "/",
+    live_demo: "https://tech-staging.on-task.sa/",
+  },
+
+  {
+    name: "Classat",
+    description:
+      "A dynamic educational platform that streamlines the learning workflow for tutors and students. It empowers educators to create accounts, manage academic courses, design subscription packages, and host online lessons. Concurrently, it offers students an intuitive portal to discover, subscribe to, and securely access scheduled courses and learning materials.",
+    tags: [
+      { name: "next.js", color: "blue-text-gradient" },
+      { name: "material-ui", color: "green-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "react", color: "blue-text-gradient" },
+      // يمكنك إضافة المزيد من التقنيات المستخدمة في الخلفية أو إدارة البيانات هنا
+    ],
+    image: ClassatImage, // تأكد من عمل import للصورة بهذا الاسم في الأعلى
+    source_code_link: "/", // ضع رابط كود المشروع هنا
+    live_demo: "https://classat.net/ar/", // ضع الرابط الفعلي للموقع هنا
+  },
+
+  {
+    name: "EduSchool ERP Platform", // يمكنك تعديله للاسم الفعلي للمشروع
+    description:
+      "A centralized ERP dashboard designed to streamline school operations within a single unified platform. It integrates cross-functional modules for financial accounting, academic management, grading systems, and human resources, providing role-based access for administrators, teachers, students, and parents to manage institutional workflows efficiently.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "next.js", color: "green-text-gradient" },
+      { name: "typescript", color: "pink-text-gradient" },
+      { name: "shadcn ui", color: "blue-text-gradient" },
+      { name: "redux toolkit", color: "green-text-gradient" },
+      { name: "react query", color: "pink-text-gradient" },
+    ],
+    image: ChinaGitway, // تأكد من عمل import للصورة بهذا الاسم في الأعلى
+    source_code_link: "/",
     live_demo: "/",
   },
+
   {
     name: "Full E-Commerce Platform",
     description:
@@ -196,8 +252,9 @@ const projects = [
     ],
     image: shopify,
     source_code_link: "https://github.com/MostafaAlagmy/Shopify",
-    live_demo: "https://shopify-pearl.vercel.app/",
+    live_demo: "",
   },
+
   {
     name: "Social Media Platform",
     description:

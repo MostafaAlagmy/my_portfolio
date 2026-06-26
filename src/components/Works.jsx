@@ -38,7 +38,7 @@ const ProjectCard = ({
           <div className='absolute top-0 left-0 m-3 card-img_hover'>
             <div
               onClick={() => window.open(live_demo, "_blank")}
-              className={`black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ${source_code_link.length<2 && 'hidden'}`}
+              className={`black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer ${live_demo.length<2 && 'hidden'}`}
             >
               <img
                 src={web}
